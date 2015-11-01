@@ -1,12 +1,20 @@
-\documentclass{article}
+\documentclass[a4paper,11pt]{article}
+%\documentclass[a4paper,twoside,11pt]{article} % for two side printing
+\usepackage{article}
 
+\author{Anshuman Dhuiya}
+\title{Master Latex Document}
 \begin{document}
+\maketitle
 
-%Typing fancy latex and tex
+\tableofcontents
+% the first section
+\include{basicintro}
 
-This is \LaTeX (specifically \LaTeX2e) which uses \TeX
+% the second section
+\include{typesetting}
 
-Its version number is approaching $\pi$ and currently is $3.141592653$.
+% the second section
+\include{maths}
 
-\texttt{This text is only to check that github is working properly}
 \end{document}
