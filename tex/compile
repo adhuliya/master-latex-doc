@@ -1,0 +1,1 @@
+latex master-latex.tex && latex master-latex.tex && dvips master-latex.dvi && ps2pdf master-latex.ps

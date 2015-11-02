@@ -1,0 +1,59 @@
+\section{Typesetting Text}
+
+\subsection{Paragraphs}
+Paragraphs are the basic unit of written text. One paragraph conveys one single idea. In \LaTeX a (\LaTeX{} a : see the difference!?`)paragraph is called ``text unit'' (as in \emph{typography})
+
+\ldots when Einstein introduced his formula
+\begin{equation}
+    e = m \cdot c^2
+\end{equation}
+which is at the same time the most widely known and the least well \mbox{understood} physical formula.
+
+\noindent
+which is at the same time the most widely known and the least well understood physical formula.
+
+\begin{equation}
+    I_D = I_F - I_R
+\end{equation}
+is the core of a very different transistor model. \ldots
+
+\fbox{This is a box that will keep all of its text together and create a visible box around it to show the grouping. \texttt{\textbackslash mbox} command does the same but doesnot draw the box. Its use with ``understood'' above avoids the hypenation of understood.}
+\newline
+\newline
+shelfful vs shelf\mbox{}ful (mind the two `f' together)
+
+\subsection{Tables}
+
+\begin{tabular}{|p{0.5\textwidth}|}
+    \hline
+    This is a text inside a table. This table has only one cell. This text should conveniently wrap around in the table.\\
+    \hline
+    \hline
+\end{tabular}
+\begin{tabular}{|p{0.5\textwidth}|}
+    \hline
+    This is a text inside a table. This table has only one cell. This text should conveniently wrap around in the table.\\
+    \hline
+    \hline
+\end{tabular}
+\begin{tabular}{|p{0.5\textwidth}|}
+    \hline
+    This is a text inside a table. This table has only one cell. This text should conveniently wrap around in the table.\\
+    \hline
+    \hline
+\end{tabular}
+
+\noindent
+\begin{tabular}{|p{0.5\textwidth}|}
+    \hline
+    This is a text inside a table. This table has only one cell. This text should conveniently wrap around in the table.\\
+    \hline
+\end{tabular}
+
+\noindent
+\begin{tabular}{|p{0.5\textwidth}|}
+    \hline
+    This is a text inside a table. This table has only one cell. This text should conveniently wrap around in the table.\\
+    \hline
+    \hline
+\end{tabular}
